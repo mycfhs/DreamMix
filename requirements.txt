@@ -1,0 +1,19 @@
+
+# python=3.10.14
+diffusers==0.30.2
+transformers==4.46.0
+accelerate==0.29.1
+tqdm==4.66.5
+matplotlib==3.8.4
+torch==2.2.2    
+torchvision==0.17.2
+xformers==0.0.25.post1
+huggingface_hub==0.23.5
+peft==0.10.0
+bezier
+notebook==7.1.2
+opencv-python==4.9.0.80
+numpy==1.25.1
+scipy==1.13.0
+torchsde==0.2.6
+einops==0.7.0
