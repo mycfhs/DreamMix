@@ -38,8 +38,7 @@ Install lang-sam:
 
 ```bash
 # install lang-sam:
-git clone https://github.com/luca-medeiros/lang-segment-anything && cd lang-segment-anything
-# ! modify: pyproject.toml  :  pillow 9.3.0->9.4.0
+git clone https://github.com/mycfhs/lang-segment-anything && cd lang-segment-anything
 pip install -e .
 ```
 
