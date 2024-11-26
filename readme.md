@@ -3,9 +3,9 @@
   
   Decoupling Object Attributes for Enhanced Editability in Customized Image Inpainting</h1>
   <p align="center">
-    <a href="https://mycfhs.github.io/"><strong>Yicheng Yang</strong></a>
+    <strong>Yicheng Yang</strong>
     &nbsp;&nbsp;
-    <a href="https://pixeli99.github.io/"><strong>Pengxiang Li</strong>
+    <a href="https://pixeli99.github.io/"><strong>Pengxiang Li</strong></a>
     &nbsp;&nbsp;
     <strong>Lu Zhang</strong>
     &nbsp;&nbsp;
