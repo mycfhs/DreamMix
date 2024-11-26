@@ -5,7 +5,7 @@
   <p align="center">
     <a href="https://mycfhs.github.io/"><strong>Yicheng Yang</strong></a>
     &nbsp;&nbsp;
-    <strong>Pengxiang Li</strong>
+    <a href="https://pixeli99.github.io/"><strong>Pengxiang Li</strong>
     &nbsp;&nbsp;
     <strong>Lu Zhang</strong>
     &nbsp;&nbsp;
@@ -29,7 +29,7 @@
   <p align="center">
     <a href="https://arxiv.org/abs/2411.14435"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2306.14435-b31b1b.svg"></a>
   </p>
-  <br>
+
 </p>
 
 ---
@@ -131,11 +131,7 @@ To perform inference, follow the instructions in `infer.ipynb`.
 If you find our work helpful, please consider giving us a ⭐ or citing our paper:
 
 ```bibtex
-@article{shi2023dragdiffusion,
-  title={DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing},
-  author={Shi, Yujun and Xue, Chuhui and Pan, Jiachun and Zhang, Wenqing and Tan, Vincent YF and Bai, Song},
-  journal={arXiv preprint arXiv:2306.14435},
-  year={2023}
+@article{...
 }
 ```
 
