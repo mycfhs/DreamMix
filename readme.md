@@ -1,27 +1,48 @@
-# **DreamMix: Decoupling Object Attributes for Enhanced Editability in Customized Image Inpainting**
-
-
-<!-- [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/todo) -->
-
-<div align="center">
-    <img src="./assets/teaser.png" alt="Teaser Image" style="max-width: 100%; border-radius: 10px;">
-</div>
+<p align="center">
+  <h1 align="center">DreamMix: 
+  
+  Decoupling Object Attributes for Enhanced Editability in Customized Image Inpainting</h1>
+  <p align="center">
+    <a href="https://mycfhs.github.io/"><strong>Yicheng Yang</strong></a>
+    &nbsp;&nbsp;
+    <strong>Pengxiang Li</strong>
+    &nbsp;&nbsp;
+    <strong>Lu Zhang</strong>
+    &nbsp;&nbsp;
+    <strong>Liqian Ma</strong>
+    &nbsp;&nbsp;
+    <br>
+    <strong>Ping Hu</strong>
+    &nbsp;&nbsp;
+    <strong>Siyu Du</strong>
+    &nbsp;&nbsp;
+    <strong>Yunzhi Zhuge</strong></a>
+    &nbsp;&nbsp;
+    <strong>Xu Jia</strong></a>
+    &nbsp;&nbsp;
+    <strong>Huchuan Lu</strong></a>
+  </p>
+  <br>
+  <div align="center">
+      <img src="./assets/teaser.png" alt="Teaser Image"   style="max-width: 100%; border-radius: 10px;">
+  </div>
+  <p align="center">
+    <a href="https://arxiv.org/abs/2411.14435"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2306.14435-b31b1b.svg"></a>
+  </p>
+  <br>
+</p>
 
 ---
 
 ## 📰 **News and Updates**  
-- **[24.11.24]** Official release of code and paper!
+- **[24.11.27]** Official release of paper and code!
 
-This repository hosts the **official implementation** of our paper:
-
-> **DreamMix: Decoupling Object Attributes for Enhanced Editability in Customized Image Inpainting**
-
----
+<!-- ---
 
 ## **Features**
 - **Seamless Image Inpainting**: Decouple object attributes for enhanced control and editability.
 - **Customizable Training**: Train with DreamBooth and fine-tune models for your needs.
-- **User-Friendly Tools**: Straightforward inference pipeline with advanced inpainting tricks.
+- **User-Friendly Tools**: Straightforward inference pipeline with advanced inpainting tricks. -->
 
 ---
 
@@ -130,7 +151,7 @@ We extend our gratitude to the incredible open-source community. Our work is bas
 - Training code is based on [Diffusers SDXL DreamBooth example](https://github.com/huggingface/diffusers/blob/v0.30.2/examples/dreambooth/train_dreambooth_lora_sdxl.py).
 - Image samples are collected from [Pixabay](https://pixabay.com/) and [COCO Dataset](https://cocodataset.org/).
 
-Here's the techniques we have incorporated in Fooocus inpainting:
+Here's the techniques we have incorporated in Fooocus:
 - **Blur Guidance**: Controlled with the `sharpness` parameter.
 - **ADM Scaler**: Parameters `adm_scaler_positive, adm_scaler_negative, adm_scaler_end`
 - **Inpaint Worker**: Enhanced inpainting logic.
@@ -144,7 +165,7 @@ Here's the techniques we have incorporated in Fooocus inpainting:
 
 For questions or feedback, please reach out to us at **mycf2286247133@gmail.com**.
 
----
+<!-- ---
 
 ## 🔗 **Related Links**
-- [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold](https://vcai.mpi-inf.mpg.de/projects/DragGAN/)
+- [Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation](https://github.com/google/dreambooth) -->
