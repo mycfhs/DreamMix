@@ -94,6 +94,7 @@ To begin training, use the following command:
 
 ```bash
 CATEGORY="teapot"
+INSTANCE_PROMPT="..."
 accelerate launch train.py \
     --category="${CATEGORY}" \
     --output_dir="lora/${CATEGORY}" \
@@ -104,7 +105,7 @@ accelerate launch train.py \
     --pretrained_model_name_or_path="frankjoshua/juggernautXL_v8Rundiffusion"  \
     --instance_data_dir="train_data/${CATEGORY}/image" \
     --mixed_precision="no" \
-    --instance_prompt="${categroy_prompt[${CATEGORY}]}" \
+    --instance_prompt="${INSTANCE_PROMPT]" \
     --resolution=1024 \
     --train_batch_size=1 \
     --gradient_accumulation_steps=4 \
