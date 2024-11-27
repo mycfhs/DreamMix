@@ -27,7 +27,7 @@
       <img src="./assets/teaser.png" alt="Teaser Image"   style="max-width: 100%; border-radius: 10px;">
   </div>
   <p align="center">
-    <a href="https://arxiv.org/abs/2411.14435"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2411.14435-b31b1b.svg"></a>
+    <a href="https://arxiv.org/abs/2411.17223"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2411.17223-b31b1b.svg"></a>
   </p>
 
 </p>
