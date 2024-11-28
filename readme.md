@@ -132,7 +132,14 @@ To perform inference, follow the instructions in `infer.ipynb`.
 If you find our work helpful, please consider giving us a ⭐ or citing our paper:
 
 ```bibtex
-@article{...
+@misc{yang2024dreammix,
+      title={DreamMix: Decoupling Object Attributes for Enhanced Editability in Customized Image Inpainting}, 
+      author={Yicheng Yang and Pengxiang Li and Lu Zhang and Liqian Ma and Ping Hu and Siyu Du and Yunzhi Zhuge and Xu Jia and Huchuan Lu},
+      year={2024},
+      eprint={2411.17223},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.17223}, 
 }
 ```
 
