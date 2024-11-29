@@ -84,7 +84,7 @@
 
 2. Generate regular images using the `make_img.ipynb` notebook.
 
-3. Download the DreamBooth dataset [here](https://github.com/google/dreambooth) and rename the directory to `train_data`.
+3. Download the DreamBooth dataset [here](dreambooth_mask) and get `train_data` dir.
 
 ---
 
@@ -105,7 +105,7 @@ accelerate launch train.py \
     --pretrained_model_name_or_path="frankjoshua/juggernautXL_v8Rundiffusion"  \
     --instance_data_dir="train_data/${CATEGORY}/image" \
     --mixed_precision="no" \
-    --instance_prompt="${INSTANCE_PROMPT]" \
+    --instance_prompt="${INSTANCE_PROMPT}" \
     --resolution=1024 \
     --train_batch_size=1 \
     --gradient_accumulation_steps=4 \
