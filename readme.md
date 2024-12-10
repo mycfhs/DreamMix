@@ -68,6 +68,7 @@
 3. Download the necessary models:
 
     - [Fooocus inpaint v26 patch](https://huggingface.co/lllyasviel/fooocus_inpaint/blob/main/inpaint_v26.fooocus.patch) → Place in `models/fooocus_inpaint`.
+    - [fooocus_inpaint_head](https://huggingface.co/lllyasviel/fooocus_inpaint/blob/main/fooocus_inpaint_head.pth) → Place in `models/fooocus_inpaint`.
     - [Upscale model](https://huggingface.co/metercai/SimpleSDXL/tree/main/upscale_models) → Place in `models/upscale_mode`.
 
 ---
