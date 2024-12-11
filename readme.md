@@ -70,6 +70,7 @@
     - [Fooocus inpaint v26 patch](https://huggingface.co/lllyasviel/fooocus_inpaint/blob/main/inpaint_v26.fooocus.patch) → Place in `models/fooocus_inpaint`.
     - [fooocus_inpaint_head](https://huggingface.co/lllyasviel/fooocus_inpaint/blob/main/fooocus_inpaint_head.pth) → Place in `models/fooocus_inpaint`.
     - [Upscale model](https://huggingface.co/metercai/SimpleSDXL/tree/main/upscale_models) → Place in `models/upscale_mode`.
+    - (Optional)[improve quailty lora](https://huggingface.co/metercai/SimpleSDXL/blob/main/loras/sd_xl_offset_example-lora_1.0.safetensors) → Place in `models/lora`.
 
 ---
 
