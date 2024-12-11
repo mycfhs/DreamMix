@@ -130,6 +130,11 @@ class FooocusSDXLInpaintPipeline(StableDiffusionXLInpaintPipeline):
         if add_double_sa:
             self._add_double_sa(self.fooocus_unet)
 
+        if lora_configs == []:
+            print("Finish loading fooocus unet without lora")
+            return
+            
+
         adapter_names_unet, adapter_names_fooocus = [], []
         adapter_scales_unet, adapter_scales_fooocus = [], []
         for lora_config in lora_configs:
