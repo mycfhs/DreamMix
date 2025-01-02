@@ -86,7 +86,7 @@
 
 2. Generate regular images using the `make_img.ipynb` notebook.
 
-3. Download the DreamBooth dataset [here](dreambooth_mask) and get `train_data` dir.
+3. Download the DreamBooth dataset [here](https://github.com/mycfhs/dreambooth_mask) and get `train_data` dir.
 
 ---
 
